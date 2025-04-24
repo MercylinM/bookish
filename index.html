@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ankole - Fine Dining Experience</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <style>
+      :root {
+         --primary-color: #d4af37;
+         --primary-dark: #b8972e;
+         --dark-bg: #0a0a0a;
+         --dark-bg-light: #1a1a1a;
+         --text-light: #ffffff;
+         --text-gray: #aaaaaa;
+         --text-dark: #333333;
+         --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+         --review-bg: #f8f5f0;
+         --review-primary: #5d4037;
+         --review-accent: #8d6e63; 
+      }
+
+      .image:nth-child(1) {
+         background-image: url('images/view.jpg');
+         animation-delay: 0s;
+      }
+
+      .image:nth-child(2) {
+         background-image: url('images/Interior.jpg');
+         animation-delay: 4s;
+      }
+
+      .image:nth-child(3) {
+         background-image: url('images/Chips.jpg');
+         animation-delay: 8s;
+      }
+
+      .image:nth-child(4) {
+         background-image: url('images/cocktail.jpg');
+         animation-delay: 12s;
+      }
+
+      .image:nth-child(5) {
+         background-image: url('images/desert.jpg');
+         animation-delay: 16s;
+      }
+
+   
+      
+   </style>
+</head>
+<body>
+   <!-- Header -->
+   <div id="header-placeholder"></div>
+
+   <!-- Main Content -->
+   <div class="image-fade">
+      <div class="image">
+         <div class="image-content">
+            <img src="images/ankole_logo.svg" alt="Ankole Logo">
+            <h1>Welcome</h1>
+            <p>Experience the pinnacle of fine dining at Ankole, where culinary artistry meets exceptional service.</p>
+            <a href="menu.html" class="hero-button">View Menu</a>
+         </div>
+      </div>
+      <div class="image">
+         <div class="image-content">
+            <img src="images/ankole_logo.svg" alt="Ankole Logo">
+            <h1>Discover</h1>
+            <p>Explore our seasonal menu crafted with the finest locally-sourced ingredients and global flavors.</p>
+            <a href="event.html" class="hero-button">Our Events</a>
+         </div>
+      </div>
+      <div class="image">
+         <div class="image-content">
+            <img src="images/ankole_logo.svg" alt="Ankole Logo">
+            <h1>Experience</h1>
+            <p>Immerse yourself in our elegant ambiance designed to complement your dining journey.</p>
+            <a href="index.html" class="hero-button">Read Reviews</a>
+         </div>
+      </div>
+      <div class="image">
+         <div class="image-content">
+            <img src="images/ankole_logo.svg" alt="Ankole Logo">
+            <h1>Taste</h1>
+            <p>Indulge in our chef's signature creations that redefine modern gastronomy.</p>
+            <a href="reservations.html" class="hero-button">Book a Table</a>
+         </div>
+      </div>
+      <div class="image">
+         <div class="image-content">
+            <img src="images/ankole_logo.svg" alt="Ankole Logo">
+            <h1>Savour</h1>
+            <p>Every moment at Ankole is crafted to create lasting memories through exceptional cuisine.</p>
+            <a href="contacts.html" class="hero-button">Contact Us</a>
+         </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <div class="scroll-down">
+         <p>Scroll Down</p>
+         <div class="arrow"></div>
+      </div>
+   </div>
+
+   <!-- Reviews Section -->
+   <section class="reviews-section">
+      <div class="reviews-container">
+         <h2 class="section-title">Guest Experiences</h2>
+         
+         <div class="reviews-slider">
+            <div class="slider-arrow prev" onclick="plusSlides(-1)">❮</div>
+            
+            <div class="review-slide active">
+               <div class="rating-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <i class="fas fa-quote-left quote-icon"></i>
+               <p class="review-text">
+                  This place is run by educated, innovative & creative people! The architectural layout, seating, ambience,
+                  lighting, cutlery: servings, design; has been impeccably well thought out! Even the washrooms were excellent!
+                  <br><br>
+                  The food was AWESOME! This is surprising considering the fact we were there on a Saturday night
+                  & they almost had no space! We were extremely well serviced too! Rare to find such finesse in Kenya!
+               </p>
+               <p class="review-author">Irfan Virji</p>
+               <p class="review-location">Kitisuru</p>
+            </div>
+            
+            <div class="review-slide">
+               <div class="rating-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <i class="fas fa-quote-left quote-icon"></i>
+               <p class="review-text">
+                  Such a fantastic restaurant, I plan on being a regular here. The food is amazing, the atmosphere is so nice and
+                  the service is exceptional. I pray you are able to visit them at least once so you can understand what I'm saying.
+                  <br><br>
+                  10/10. Recommended dishes: Steak. The wine pairing suggestions were absolutely perfect!
+               </p>
+               <p class="review-author">Paul Kamau</p>
+               <p class="review-location">Kitisuru</p>
+            </div>
+            
+            <div class="review-slide">
+               <div class="rating-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <i class="fas fa-quote-left quote-icon"></i>
+               <p class="review-text">
+                  Best place to eat out. If you want to have a nice romantic date, this place is perfect. The food is fantastic,
+                  only be careful because the portions are bigger than you would expect.
+                  <br><br>
+                  The sommelier's recommendations were spot on, and the dessert menu is to die for. We'll definitely be back for our anniversary.
+               </p>
+               <p class="review-author">Vladimiro Stivali</p>
+               <p class="review-location">Kitisuru</p>
+            </div>
+            
+            <div class="slider-arrow next" onclick="plusSlides(1)">❯</div>
+         </div>
+         
+         <div class="slider-nav">
+            <span class="slider-dot" onclick="currentSlide(1)"></span>
+            <span class="slider-dot" onclick="currentSlide(2)"></span>
+            <span class="slider-dot" onclick="currentSlide(3)"></span>
+         </div>
+      </div>
+   </section>
+
+   <!-- Footer -->
+   <div id="footer-placeholder"></div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+   <script src="js/scripts.js"></script>
+</body>
+</html>
