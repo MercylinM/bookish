@@ -593,7 +593,7 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 80%;ccd 
+    width: 80%;  
     max-width: 350px;
     height: 100vh;
     background-color: var(--dark-bg-light);

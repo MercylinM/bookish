@@ -1,0 +1,60 @@
+/* menu page */
+.menus {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+    .menu-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+
+        .menu {
+            padding: 21% 0;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .menu:first-child {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001-p-1080.jpg);
+        }
+
+        .menu:last-child {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights-p-500.jpg);
+        }
+
+        h2 {
+            color: var(--text-light);
+            font-size: 2em;
+            font-weight: 400;
+            margin-top: 0;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 4em;
+            letter-spacing: 2px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        p {
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
