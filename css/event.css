@@ -6,7 +6,7 @@
 
 .events-hero {
   height: 50vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('images/accra3.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/book.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -59,9 +59,9 @@
 }
 
 .event-image {
-  height: 250px;
+  height: 450px;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   position: relative;
 }
 
@@ -132,6 +132,7 @@
   margin: 5px 0;
   display: flex;
   align-items: center;
+  gap: 1em;
 }
 
 .contact-info i {

@@ -62,6 +62,8 @@ fetch('commons/header.html')
         }
       });
     });
+
+    
   });
 
 // Load footer
@@ -138,5 +140,7 @@ fetch('commons/footer.html')
        confirmationMessage.classList.remove('active');
        form.reset();
    });
+
+
 
 

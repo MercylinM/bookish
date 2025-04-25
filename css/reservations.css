@@ -2,8 +2,8 @@
 .reservation-banner {
    position: relative;
    height: 60vh;
-   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('images/reservation-hero.jpg');
-   background-size: cover;
+   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/cover-born.jpeg);
+   background-size: 100%;
    background-position: center;
    display: flex;
    align-items: center;

@@ -7,8 +7,8 @@
 .menu-hero {
   
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/Ankole-website/images/ktkt.jpg');
-  background-size: cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/books.webp);
+  background-size: 100%;
   background-position: center;
   display: flex;
   align-items: center;

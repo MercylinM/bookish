@@ -1,7 +1,7 @@
 
 .contact-hero {
   height: 50vh;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('images/contact-hero.jpg');
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(/images/contact\ back.jpeg);
   background-size: cover;
   background-position: center;
   display: flex;
