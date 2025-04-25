@@ -3,6 +3,23 @@
   position: relative;
   z-index: 1000;
 }
+.description{
+  display: flex;
+  gap: 3%;
+}
+#highschool{
+  width: 40vh;
+  /* height: 0vh; */
+}
+.highschool-student{
+  display: flex;
+}
+.student-img{
+  width: 40vh;
+}
+.student-exprience{
+  margin-left:5%;
+}
 
 .menu-hero {
   
