@@ -400,7 +400,7 @@ header.scrolled {
    position: absolute;
    top: 0;
    left: 0;
-   background-position: center;
+   background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
@@ -414,12 +414,12 @@ header.scrolled {
 }
 
 .image:nth-child(1) {
-   background-image: url(/images/view.jpg);
+   background-image: url(/TD.jpg);
    animation-delay: 0s;
 }
 
 .image:nth-child(2) {
-   background-image: url(/images/Interior.jpg);
+   background-image: url(/Chimamanda.jpg);
    animation-delay: 4s;
 }
 

@@ -7,7 +7,7 @@
 .menu-hero {
   
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/books.webp);
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/pile.jpg');
   background-size: 100%;
   background-position: center;
   display: flex;
@@ -46,13 +46,13 @@
 
 .hero-content h1 {
   font-size: 3.5rem;
-  color: orangered;
+  color: var(--primary-color);
   margin-bottom: 10px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   opacity: 0.9;
   letter-spacing: 2px;
   text-transform: uppercase;
