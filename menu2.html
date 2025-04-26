@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
 </head>
+
 <body>
     <div id="header-placeholder"></div>
 
@@ -36,7 +40,7 @@
             <div class="section-header">
                 <h2>Key 1</h2>
             </div>
-            
+
             <!-- <div class="time-notice">
                 <p>Kilimani - breakfast served from 7:30am to 11:00am daily</p>
                 <p>Kitisuru - breakfast served from 9:00am to 11:00am daily</p>
@@ -101,7 +105,35 @@
             <div class="section-header">
                 <h2>Key 2</h2>
             </div>
-<!-- 
+            <div class="text1">
+                <h1>Be a Full Person</h1>
+                <p> The first suggestions in Adichie’s manifesto goes beyond simplistics notions of feminism.<br>
+                    It’s about liberating women from the expectations that motherhood, or anyother predefined
+                    role,<br>
+                    should consume thier entire being. It’s a call to action to live a life rich in diverse
+                    experiences,<br>
+                    passions and contributions beyond the domestic sphere.This is not just about “having it all,”
+                    <br>
+                    but about consciously choosing what”all” means for you and rejecting the societal pressure to
+                    <br>
+                    conform to a narrow definition of womanhood. It is about a well rounded life with different <br>
+                    characteristics to be able to give her daughter an idea on what a woman actually can be.<br>
+                    <br>
+                    </p>
+                    <img src="images/afrigirl.jpeg" id="girl-image">
+                   <p>
+                    Challenging Traditional Gender Roles: There’s a growing awareness of the harmful effects of
+                    rigid<br>
+                    gender roles , particulary on women. This includes the expectation that women should be
+                    primarily<br>
+                    caregivers, proritize their families’ needs above their own and suppress their ambitions.<br>
+                    Adichie’s suggestion directly challenges these stereotypes.<br> 
+                    Example you could include content drinking common myths about womens roles , such as the idea<br>
+                    that women are naturally more nurturing or that they are less ambitious than men.<br>
+                </p>
+
+            </div>
+            <!-- 
             <div id="salads" class="menu-category">
                 <h3 class="category-title">SALADS</h3>
                 
@@ -241,12 +273,12 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 });
-                
+
                 // Update active nav link
                 document.querySelectorAll('.menu-nav a').forEach(link => {
                     link.classList.remove('active');
@@ -258,4 +290,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
