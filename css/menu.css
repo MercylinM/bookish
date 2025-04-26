@@ -18,7 +18,9 @@
   margin-bottom: 60px;
   height: 100vh;
 }
-
+.text p{
+color: white;
+}
 .text1 h1{
   color: white;
   font-size: 30px;
