@@ -19,12 +19,23 @@
   height: 100vh;
 }
 
-
-
+.text1 h1{
+  color: white;
+  font-size: 30px;
+}
+.text1 p{
+  color: white;
+}
+#girl-image{
+  margin-top: -10px;
+  padding-bottom: 20px; 
+  margin-left: 500px; 
+  width: 380px; 
+  height: 250px;
+}
 .hero-content {
   max-width: 800px;
   padding: 0 20px;
-  
 }
 
 .hero-content img {
@@ -272,86 +283,4 @@ color :white;}
       padding: 8px 15px;
       font-size: 0.9rem;
   }
-}
-.apartheid{
-  color: white;
-}
-.humor{
-  color: white;
-}
-.issue-4{
-  display: flex;
-  /* justify-content: space-between; */
-  gap: 5%;
-  justify-content: center;
-}
-.t-image img{
-  border-radius: 20px;
-  padding: 10px;
-}
-.issue-1{
-  display: flex;
-  gap: 4%;
-  justify-content: center;
-}
-.tn-image img{
-  border-radius: 20px;
-  padding: 10px;
-}
-.image-tn img{
-  border-radius: 20px;
-  padding: 10px;
-}
-.issue-2{
-  display: flex;
-  justify-content: center;
-}
-.issue-3{
-  display: flex;
-  gap: 4%;
-  justify-content: center;
-}
-.image-t img{
-  border-radius: 20px;
-  padding: 10px;
-}
-.scene1{
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-}
-.scene2{
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-}
-.reflection{
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-}
-.examples{
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-  margin-right: 3px;
-}
-.listed-examples{
-  display: block;
-}
-#img-reflection img{
-  border-radius: 20px;
-  padding: 10px;
-}
-#img-scene1 img{
-  border-radius: 20px;
-  padding: 10px;
-}
-#img-scene2 img{
-  border-radius: 20px;
-  padding: 10px;
-}
-#img-examples{
-  border-radius: 20px;
-  padding: 10px;
 }
