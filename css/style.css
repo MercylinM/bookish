@@ -26,10 +26,12 @@
    --container-width: 1200px;
 
    /* reviews part */
-   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
    --review-bg: #f8f5f0;
    --review-primary: #5d4037;
    --review-accent: #8d6e63;
+
+   --blockquote:#fcefd8;
+
 }
 
 * {
@@ -100,6 +102,7 @@ img {
    display: flex;
    justify-content: space-between;
    align-items: center;
+
 }
 
 .logo img {
@@ -154,9 +157,9 @@ img {
    position: absolute;
    top: 2em;
    left: 0;
-   width: 12em;
+   width: 18em;
    background-color: var(--dark-bg);
-   color: var(--white);
+   color: var(--text-light);
    padding: 0.5em 1em;
    border-radius: 20px;
    font-family: unset !important;
@@ -173,7 +176,7 @@ img {
    display: block;
 }
 
-.reserve-button {
+.blog-button {
    background-color: var(--primary-color);
    color: var(--dark-bg);
    padding: 0.5rem 1.5rem;
@@ -182,7 +185,7 @@ img {
    transition: var(--transition);
 }
 
-.reserve-button:hover {
+.blog-button:hover {
    background-color: var(--primary-dark);
    transform: translateY(-2px);
 }
@@ -225,7 +228,7 @@ img {
    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.mobile-menu .reserve-button {
+.mobile-menu .blog-button {
    margin-top: 1rem;
    text-align: center;
 }
@@ -248,68 +251,6 @@ img {
    visibility: visible;
 }
 
-@media (max-width: 992px) {
-   .navigation-bar {
-   display: none;
-   }
-   
-   .mobile-menu-btn {
-   display: block;
-   }
-}
-
-@media (max-width: 768px) {
-   :root {
-   --header-height: 70px;
-   --section-padding: 3rem 0;
-   }
-   
-   .header-container {
-   padding: 0 1.5rem;
-   }
-}
-
-@media (max-width: 576px) {
-   :root {
-   --header-height: 60px;
-   --section-padding: 2rem 0;
-   }
-   
-   .logo img {
-   height: 35px;
-   }
-}
-img {
-   max-width: 100%;
-   height: auto;
-}
-
-
-header {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 1000;
-   transition: var(--transition);
-   padding: 15px 0;
-   background-color: rgba(0, 0, 0, 0.7);
-   backdrop-filter: blur(10px);
-}
-
-header.scrolled {
-   padding: 10px 0;
-   background-color: rgba(0, 0, 0, 0.9);
-}
-
-.header-container {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   max-width: 1400px;
-   margin: 0 auto;
-   padding: 0 20px;
-}
 
 .logo {
    height: 50px;
@@ -366,7 +307,7 @@ header.scrolled {
    width: 100%;
 }
 
-.reserve-button {
+.blog-button {
    background-color: var(--primary-color);
    color: var(--dark-bg) !important;
    padding: 10px 25px !important;
@@ -376,13 +317,13 @@ header.scrolled {
    margin-left: 10px;
 }
 
-.reserve-button:hover {
+.blog-button:hover {
    background-color: white;
    transform: translateY(-2px);
    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
 }
 
-.reserve-button:after {
+.blog-button:after {
    display: none;
 }
 
@@ -414,12 +355,12 @@ header.scrolled {
 }
 
 .image:nth-child(1) {
-   background-image: url(/TD.jpg);
+   background-image: url(/images/TD.jpg);
    animation-delay: 0s;
 }
 
 .image:nth-child(2) {
-   background-image: url(/Chimamanda.jpg);
+   background-image: url(/images/Chimamanda.jpg);
    animation-delay: 4s;
 }
 
@@ -483,7 +424,7 @@ header.scrolled {
    max-width: 600px;
 }
 
-.image .hero-button {
+.image .image-content .hero-button {
    background-color: transparent;
    color: white;
    border: 2px solid white;
@@ -496,7 +437,7 @@ header.scrolled {
    transition: var(--transition);
 }
 
-.image .hero-button:hover {
+.image .image-content .hero-button:hover {
    background-color: white;
    color: var(--dark-bg);
    transform: translateY(-3px);
@@ -550,104 +491,13 @@ header.scrolled {
 footer {
    background-color: var(--dark-bg-light);
    color: var(--text-light);
-   padding: 60px 0 30px;
    position: relative;
    z-index: 10;
 }
 
-.footer-container {
-   max-width: 1400px;
-   margin: 0 auto;
-   padding: 0 20px;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   gap: 40px;
-}
-
-.footer-section h3 {
-   color: var(--primary-color);
-   margin-bottom: 20px;
-   font-size: 18px;
-   font-weight: 600;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-}
-
-.footer-section p,
-.footer-section a {
-   color: var(--text-gray);
-   line-height: 1.8;
-   font-size: 15px;
-   display: block;
-   margin-bottom: 10px;
-   transition: var(--transition);
-}
-
-.footer-section a:hover {
-   color: var(--primary-color);
-   transform: translateX(5px);
-}
-
-.social-icons {
-   display: flex;
-   gap: 15px;
-   margin-top: 20px;
-}
-
-.social-icons a {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 40px;
-   height: 40px;
-   border-radius: 50%;
-   background-color: #222;
-   color: #fff;
-   font-size: 16px;
-   transition: var(--transition);
-}
-
-.social-icons a:hover {
-   background-color: var(--primary-color);
-   color: var(--dark-bg);
-   transform: translateY(-3px);
-}
-
-.newsletter-form {
-   margin-top: 20px;
-}
-
-.newsletter-form input {
-   width: 100%;
-   padding: 12px 15px;
-   margin-bottom: 10px;
-   background-color: #222;
-   border: none;
-   border-radius: 4px;
-   color: white;
-   font-family: 'Montserrat', sans-serif;
-}
-
-.newsletter-form button {
-   background-color: var(--primary-color);
-   color: var(--dark-bg);
-   border: none;
-   padding: 12px 20px;
-   border-radius: 4px;
-   font-weight: 600;
-   cursor: pointer;
-   transition: var(--transition);
-   width: 100%;
-}
-
-.newsletter-form button:hover {
-   background-color: white;
-   transform: translateY(-2px);
-}
-
 .copyright {
    text-align: center;
-   padding-top: 40px;
+   padding: 40px 0;
    margin-top: 40px;
    border-top: 1px solid #222;
    color: #666;
@@ -680,94 +530,12 @@ footer {
    font-size: 18px;
 }
 
-.mobile-menu .reserve-button {
+.mobile-menu .blog-button {
    display: inline-block;
    margin-top: 20px;
    text-align: center;
 }
 
-.overlay {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0,0,0,0.7);
-   z-index: 999;
-   opacity: 0;
-   visibility: hidden;
-   transition: var(--transition);
-}
-
-.overlay.active {
-   opacity: 1;
-   visibility: visible;
-}
-
-/* Media Queries */
-@media (max-width: 992px) {
-   .navigation-bar {
-      gap: 15px;
-   }
-   
-   .reserve-button {
-      padding: 8px 15px !important;
-   }
-}
-
-@media (max-width: 768px) {
-   .mobile-menu-btn {
-      display: block;
-   }
-
-   .navigation-bar {
-      display: none;
-   }
-
-   .logo {
-      height: 40px;
-   }
-
-   .image h1 {
-      letter-spacing: 3px;
-      margin-bottom: 15px;
-   }
-
-   .image p {
-      margin-bottom: 20px;
-   }
-
-   .footer-container {
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-   }
-}
-
-@media (max-width: 576px) {
-   .header-container {
-      padding: 0 15px;
-   }
-
-   .image img {
-      width: 80px;
-   }
-
-   .image h1 {
-      font-size: 2.5rem;
-   }
-
-   .footer-container {
-      grid-template-columns: 1fr;
-   }
-
-   .footer-section {
-      text-align: center;
-   }
-
-   .social-icons {
-      justify-content: center;
-   }
-}
 
 .reviews-section {
    background-color: var(--review-bg);
@@ -930,11 +698,28 @@ footer {
    to { opacity: 1; transform: translateY(0); }
 }
 
+/* Media Queries */
 @media (max-width: 992px) {
+   .navigation-bar {
+      display: none;
+   }
+
+   .mobile-menu-btn {
+      display: block;
+   }
+
+   .navigation-bar {
+      gap: 15px;
+   }
+
+   .blog-button {
+      padding: 8px 15px !important;
+   }
+
    .review-slide {
       padding: 40px 30px;
    }
-   
+
    .slider-arrow {
       width: 50px;
       height: 50px;
@@ -943,30 +728,83 @@ footer {
 }
 
 @media (max-width: 768px) {
+   :root {
+      --header-height: 70px;
+      --section-padding: 3rem 0;
+   }
+
+   .header-container {
+      padding: 0 1.5rem;
+   }
+
+   .mobile-menu-btn {
+      display: block;
+   }
+
+   .navigation-bar {
+      display: none;
+   }
+
+   .logo {
+      height: 40px;
+   }
+
+   .image h1 {
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+   }
+
+   .image p {
+      margin-bottom: 20px;
+   }
+
    .section-title {
       font-size: 2.2rem;
    }
-   
+
    .review-text {
       font-size: 1.1rem;
       padding: 0;
    }
-   
+
    .slider-arrow {
       width: 40px;
       height: 40px;
       font-size: 1.5rem;
    }
-   
+
    .prev {
       left: -10px;
    }
-   
+
    .next {
       right: -10px;
    }
-   
+
    .reviews-slider {
       padding: 0 30px;
+   }
+}
+
+@media (max-width: 576px) {
+   :root {
+      --header-height: 60px;
+      --section-padding: 2rem 0;
+   }
+
+   .logo img {
+      height: 35px;
+   }
+
+   .header-container {
+      padding: 0 15px;
+   }
+
+   .image img {
+      width: 80px;
+   }
+
+   .image h1 {
+      font-size: 2.5rem;
    }
 }

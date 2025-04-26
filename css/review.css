@@ -4,10 +4,10 @@
   z-index: 1000;
 }
 
-.menu-hero {
+.review-hero {
   
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/pile.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/pile.jpg);
   background-size: 100%;
   background-position: center;
   display: flex;
@@ -60,14 +60,14 @@ color: white;
   text-transform: uppercase;
 }
 
-.menu-container {
+.review-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px 80px;
   background-color: black;
 }
 
-.menu-nav {
+.review-nav {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -75,7 +75,7 @@ color: white;
   flex-wrap: wrap;
 }
 
-.menu-nav a {
+.review-nav a {
   color: var(--secondary-color);
   text-decoration: none;
   font-weight: 500;
@@ -86,12 +86,12 @@ color: white;
   transition: var(--transition);
 }
 
-.menu-nav a:hover, .menu-nav a.active {
+.review-nav a:hover, .review-nav a.active {
   background-color: var(--primary-color);
   color: white;
 }
 
-.menu-section {
+.review-section {
   margin-bottom: 60px;
   scroll-margin-top: 120px;
 }
@@ -132,7 +132,7 @@ color: white;
   margin-bottom: 30px;
 }
 
-.menu-category {
+.review-category {
   margin-bottom: 40px;
 }
 
@@ -144,13 +144,13 @@ color: white;
   font-size: 1.5rem;
 }
 
-.menu-items {
+.review-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
 }
 
-.menu-item {
+.review-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px dashed #ddd;
@@ -218,7 +218,6 @@ color: white;
   color: var(--primary-color);
   font-size: 1.2rem;
 }
-<<<<<<< HEAD
 #marriage{
   margin-left: 40%;
   color: white;
@@ -231,14 +230,12 @@ color :white;}
 #achievement{
   color:white;
 }
-=======
 /* .protection_survival{
   display: flex;
   gap: 1cm;
   color: white;
 } */
  
->>>>>>> f884c51339bf0032e934b6842e88083f60b954de
 
 @media (max-width: 992px) {
   .hero-content h1 {
@@ -268,20 +265,20 @@ color :white;}
       font-size: 1rem;
   }
   
-  .menu-hero {
+  .review-hero {
       height: 35vh;
       margin-bottom: 40px;
   }
   
-  .menu-items {
+  .review-items {
       grid-template-columns: 1fr;
   }
   
-  .menu-nav {
+  .review-nav {
       gap: 10px;
   }
   
-  .menu-nav a {
+  .review-nav a {
       padding: 8px 15px;
       font-size: 0.9rem;
   }

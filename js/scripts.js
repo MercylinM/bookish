@@ -4,7 +4,6 @@ fetch('commons/header.html')
   .then(data => {
     document.getElementById('header-placeholder').innerHTML = data;
     
-    // Now that header is loaded, initialize the mobile menu functionality
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const mobileMenu = document.getElementById('mobileMenu');
     const overlay = document.getElementById('overlay');
@@ -24,7 +23,6 @@ fetch('commons/header.html')
       });
     }
     
-    // Initialize scroll header effect
     const header = document.getElementById('header');
     if (header) {
       window.addEventListener('scroll', function() {
@@ -36,7 +34,6 @@ fetch('commons/header.html')
       });
     }
     
-    // Initialize smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -51,7 +48,6 @@ fetch('commons/header.html')
             behavior: 'smooth'
           });
           
-          // Close mobile menu if open
           if (mobileMenu && mobileMenu.classList.contains('active')) {
             mobileMenu.classList.remove('active');
             overlay.classList.remove('active');
