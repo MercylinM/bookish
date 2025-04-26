@@ -205,6 +205,12 @@
   color: var(--primary-color);
   font-size: 1.2rem;
 }
+/* .protection_survival{
+  display: flex;
+  gap: 1cm;
+  color: white;
+} */
+ 
 
 @media (max-width: 992px) {
   .hero-content h1 {
