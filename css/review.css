@@ -193,6 +193,17 @@ color: white;
   width: 50%;
 }
 
+.display{
+  display: flex;
+  gap: 1cm;
+  color: white;
+  width: 100%;
+}
+
+.display .left{
+  width: 50%;
+}
+
 .featured-item {
   background-color: white;
   border-radius: 10px;
@@ -241,6 +252,11 @@ color :white;}
 
 .achievement{
   color:white;
+}
+
+.achievement li{
+  list-style-type: none;
+  margin: 2em 0;
 }
 
 .achievement li{
