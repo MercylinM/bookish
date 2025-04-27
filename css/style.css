@@ -693,6 +693,33 @@ footer {
    font-size: 1.5rem;
 }
 
+.protection-content{
+   color: white;
+}
+.protection_survival{
+   display: flex;
+   gap: 1cm;
+   width: 28cm;
+   margin-left: 1.8cm;
+}
+.protection_survival img{
+   width: 18cm;
+   height: 10.5cm;
+   margin-top: 0.5cm;
+   border-radius: 15px;
+}
+.real_life_examples{
+   display: flex;
+   gap: 1cm;
+   width: 28cm;
+   margin-left: 1.8cm;
+}
+.real_life_examples img{
+   width: 18cm;
+   height: 9cm;
+   border-radius: 15px;
+}
+
 @keyframes fadeIn {
    from { opacity: 0; transform: translateY(20px); }
    to { opacity: 1; transform: translateY(0); }
