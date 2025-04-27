@@ -119,8 +119,21 @@ border-radius: 29px;
 }
 #lead-para{
   margin-left: 500px;
+  font-size: 19px;
+  margin-top: 40px;
+  
 }
-#
+#patric-image{
+  margin-left: -390px;
+  margin-top: -260px;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+}
+#sub-para{
+  font-size: 19px;
+  margin-left: 120px;
+}
 .text p{
 color: white;
 }
@@ -131,6 +144,7 @@ color: white;
 }
 .text1 p{
   color: white;
+  text-align: center;
 }
 #girl-image{
   margin-top: -10px;
