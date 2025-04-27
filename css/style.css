@@ -808,3 +808,71 @@ footer {
       font-size: 2.5rem;
    }
 }
+.humor{
+   color: white;
+
+ }
+ .issue-1{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+ }
+ .issue-2{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+ }
+ .issue-3{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+ }
+ .issue-4{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+ }
+ .tn-image img{
+   border-radius: 20px;
+ }
+ .image-t img{
+   border-radius: 20px;
+ }
+ .t-image img{
+   border-radius: 20px;
+ }
+ .apartheid{
+   color: white;
+ }
+ .scene1{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+ }
+ .image-scene1{
+   border-radius:20px;
+ }
+ .image-scene2{
+   border-radius: 20px;
+ }
+.scene2{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+}
+.reflection{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+}
+.img-reflection{
+   border-radius: 20px;
+}
+.examples{
+   display: flex;
+   justify-content: center;
+   gap: 4%;
+}
+.img-examples{
+   border-radius: 20px;
+}
