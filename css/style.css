@@ -25,7 +25,7 @@
    --section-padding: 4rem 0;
    --container-width: 1200px;
 
-   /* reviews part */
+   /* quotes part */
    --review-bg: #f8f5f0;
    --review-primary: #5d4037;
    --review-accent: #8d6e63;
@@ -74,7 +74,6 @@ img {
    height: auto;
 }
 
-
 #header {
    position: fixed;
    top: 0;
@@ -105,11 +104,7 @@ img {
 
 }
 
-.logo img {
-   height: 40px;
-   width: auto;
-}
-
+/* Navigation */
 .navigation-bar {
    display: flex;
    align-items: center;
@@ -120,6 +115,9 @@ img {
    font-weight: 500;
    position: relative;
    padding: 0.5rem 0;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   transition: var(--transition);
 }
 
 .navigation-bar a:hover {
@@ -150,8 +148,6 @@ img {
    display: block;
 }
 
-
-
 .navigation-bar .menu-toggle .dropdown{
    display: none;
    position: absolute;
@@ -171,7 +167,6 @@ img {
    display: block;
 }
 
-
 .dropdown.show {
    display: block;
 }
@@ -179,17 +174,35 @@ img {
 .blog-button {
    background-color: var(--primary-color);
    color: var(--dark-bg);
-   padding: 0.5rem 1.5rem;
-   border-radius: 4px;
    font-weight: 600;
    transition: var(--transition);
+   padding: 10px 25px !important;
+   border-radius: 30px;
+   margin-left: 10px;
 }
 
 .blog-button:hover {
-   background-color: var(--primary-dark);
    transform: translateY(-2px);
+   background-color: white;
+   transform: translateY(-2px);
+   box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
 }
 
+.blog-button:after {
+   display: none;
+}
+
+.logo {
+   height: 50px;
+   transition: var(--transition);
+}
+
+.logo img {
+   height: 100%;
+   width: auto;
+}
+
+/* Mobile Menu Button */
 .mobile-menu-btn {
    display: none;
    background: none;
@@ -198,8 +211,8 @@ img {
    font-size: 1.5rem;
    cursor: pointer;
    padding: 0.5rem;
+   z-index: 1001;
 }
-
 
 .mobile-menu {
    position: fixed;
@@ -217,11 +230,9 @@ img {
    gap: 1.5rem;
 }
 
-.mobile-menu.active {
-   right: 0;
-}
 
 .mobile-menu a {
+   display: block;
    color: var(--text-light);
    font-size: 1.1rem;
    padding: 0.5rem 0;
@@ -229,8 +240,13 @@ img {
 }
 
 .mobile-menu .blog-button {
+   display: inline-block;
    margin-top: 1rem;
    text-align: center;
+}
+
+.mobile-menu.active {
+   right: 0;
 }
 
 .overlay {
@@ -249,82 +265,6 @@ img {
 .overlay.active {
    opacity: 1;
    visibility: visible;
-}
-
-
-.logo {
-   height: 50px;
-   transition: var(--transition);
-}
-
-.logo img {
-   height: 100%;
-}
-
-/* Mobile Menu Button */
-.mobile-menu-btn {
-   display: none;
-   background: none;
-   border: none;
-   color: white;
-   font-size: 24px;
-   cursor: pointer;
-   z-index: 1001;
-}
-
-/* Navigation */
-.navigation-bar {
-   display: flex;
-   gap: 25px;
-   align-items: center;
-}
-
-.navigation-bar a {
-   position: relative;
-   padding: 8px 0;
-   font-weight: 500;
-   font-size: 16px;
-   letter-spacing: 0.5px;
-   transition: var(--transition);
-}
-
-.navigation-bar a:after {
-   content: '';
-   position: absolute;
-   width: 0;
-   height: 2px;
-   bottom: 0;
-   left: 0;
-   background-color: var(--primary-color);
-   transition: var(--transition);
-}
-
-.navigation-bar a:hover {
-   color: var(--primary-color);
-}
-
-.navigation-bar a:hover:after {
-   width: 100%;
-}
-
-.blog-button {
-   background-color: var(--primary-color);
-   color: var(--dark-bg) !important;
-   padding: 10px 25px !important;
-   border-radius: 30px;
-   font-weight: 600;
-   transition: var(--transition);
-   margin-left: 10px;
-}
-
-.blog-button:hover {
-   background-color: white;
-   transform: translateY(-2px);
-   box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
-}
-
-.blog-button:after {
-   display: none;
 }
 
 /* Hero Slideshow */
@@ -452,7 +392,7 @@ img {
    100% { opacity: 0; }
 }
 
-/* Scroll */
+/* Scroll Sign */
 .scroll-down {
    position: absolute;
    bottom: 30px;
@@ -498,52 +438,19 @@ footer {
 .copyright {
    text-align: center;
    padding: 40px 0;
-   margin-top: 40px;
-   border-top: 1px solid #222;
-   color: #666;
+   border-top: 1px solid var(--dark-bg-light);
+   color: var(--text-gray);
    font-size: 14px;
 }
 
-/* Mobile Menu */
-.mobile-menu {
-   position: fixed;
-   top: 0;
-   right: -100%;
-   width: 80%;  
-   max-width: 350px;
-   height: 100vh;
-   background-color: var(--dark-bg-light);
-   z-index: 1000;
-   padding: 80px 30px 30px;
-   transition: var(--transition);
-   overflow-y: auto;
-}
-
-.mobile-menu.active {
-   right: 0;
-}
-
-.mobile-menu a {
-   display: block;
-   padding: 15px 0;
-   border-bottom: 1px solid #333;
-   font-size: 18px;
-}
-
-.mobile-menu .blog-button {
-   display: inline-block;
-   margin-top: 20px;
-   text-align: center;
-}
-
-
-.reviews-section {
+/* quotes section */
+.quotes-section {
    background-color: var(--review-bg);
    padding: 100px 0;
    position: relative;
 }
 
-.reviews-container {
+.quotes-container {
    max-width: 1200px;
    margin: 0 auto;
    padding: 0 20px;
@@ -571,7 +478,7 @@ footer {
    border-radius: 2px;
 }
 
-.reviews-slider {
+.quotes-slider {
    position: relative;
    max-width: 1000px;
    margin: 0 auto;
@@ -808,7 +715,7 @@ footer {
       right: -10px;
    }
 
-   .reviews-slider {
+   .quotes-slider {
       padding: 0 30px;
    }
 }

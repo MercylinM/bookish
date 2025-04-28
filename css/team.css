@@ -4,7 +4,7 @@
   z-index: 1000;
 }
 
-.events-hero {
+.team-hero {
   height: 50vh;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/book.webp);
   background-size: cover;
@@ -35,7 +35,7 @@
   opacity: 0.9;
 }
 
-.events-container {
+.team-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px 80px;
@@ -44,7 +44,7 @@
   gap: 40px;
 }
 
-.event-card {
+.team-card {
   background: white;
   border-radius: 12px;
   overflow: hidden;
@@ -53,19 +53,19 @@
   position: relative;
 }
 
-.event-card:hover {
+.team-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-.event-image {
+.team-image {
   height: 450px;
   background-size: cover;
   background-position: top;
   position: relative;
 }
 
-.event-image::after {
+.team-image::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -75,7 +75,7 @@
   background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
 }
 
-.event-title {
+.team-title {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -85,13 +85,13 @@
   z-index: 2;
 }
 
-.event-title h2 {
+.team-title h2 {
   margin: 0;
   font-size: 2rem;
   color: var(--primary-color);
 }
 
-.event-details {
+.team-details {
   padding: 30px;
 }
 
@@ -150,20 +150,20 @@
   color: white;
 }
 
-.event-cta {
+.team-cta {
   text-align: center;
   margin-top: 60px;
   padding: 0 20px;
 }
 
-.event-cta h2 {
+.team-cta h2 {
   color: var(--secondary-color);
   margin-bottom: 20px;
   position: relative;
   display: inline-block;
 }
 
-.event-cta h2::after {
+.team-cta h2::after {
   content: '';
   position: absolute;
   height: 3px;
@@ -198,7 +198,7 @@
       font-size: 2.8rem;
   }
   
-  .events-container {
+  .team-container {
       grid-template-columns: 1fr;
       max-width: 600px;
   }
@@ -213,7 +213,7 @@
       font-size: 1rem;
   }
   
-  .events-hero {
+  .team-hero {
       height: 40vh;
       margin-bottom: 50px;
   }
