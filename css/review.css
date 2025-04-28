@@ -121,19 +121,20 @@ border-radius: 29px;
   text-align: center;
 }
 #lead-para{
-  margin-left: 500px;
+  margin-left: 510px;
   font-size: 19px;
   margin-top: 40px;
   
 }
 #patric-image{
-  margin-left: -390px;
-  margin-top: -260px;
-  width: 350px;
-  height: 300px;
+  margin-left: 180px;
+  margin-top: -240px;
+  width: 300px;
+  height: 280px;
   border-radius: 20px;
 }
 #sub-para{
+  margin-top: 20px;
   font-size: 19px;
   margin-left: 120px;
 }
@@ -147,13 +148,13 @@ color: white;
 }
 .text1 p{
   color: white;
-  text-align: center;
+  font-size: 18px;
 }
 #girl-image{
   margin-top: -10px;
   padding-bottom: 20px; 
   margin-left: 500px; 
-  width: 380px; 
+  width: 490px; 
   height: 250px;
 }
 .hero-content {
@@ -450,16 +451,27 @@ color :white;}
       width: 100%;
   }
 
-   .display .left{
-    width: 100%;
-   }
-   .display .right{
-    width: 100%;
-   }
-  .display{
-    flex-direction: column;
-    flex-wrap: wrap;
+  #girl-image{
+    margin-top: 10px;
+    margin-left: -1px; 
+   
   }
+  #lead-para{
+    margin-left: 10px;
+    font-size: 19px;
+  
+    
+  }
+  #patric-image{
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 340px;
+   
+  }
+  #sub-para{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 10px;
 }
 
 @media (max-width: 768px) {
