@@ -1,9 +1,9 @@
 .blog-banner {
    position: relative;
    height: 60vh;
-   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/cover-born.jpeg);
+   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/trevornoah-photo-9.jpg);
    background-size: 100%;
-   background-position: center;
+   /* background-position: center; */
    display: flex;
    align-items: center;
    justify-content: center;
