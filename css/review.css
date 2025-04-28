@@ -349,7 +349,16 @@ color :white;}
   .featured-item {
       flex-direction: column;
   }
-  
+  .display .left{
+    width: 100%;
+   }
+   .display .right{
+    width: 100%;
+   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .featured-image {
       width: 100%;
       height: 200px;
@@ -396,16 +405,7 @@ color :white;}
   .review-hero {
       height: 35vh;
   }
-  .display .left{
-    width: 100%;
-   }
-   .display .right{
-    width: 100%;
-   }
-  .display{
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+
   
   .review-items {
     grid-template-columns: 1fr;
