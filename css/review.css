@@ -418,4 +418,14 @@ color :white;}
     padding: 8px 15px;
     font-size: 0.9rem;
   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .display .right{
+    width: 100%;
+  }
+  .display .left{
+    width: 100%;
+  }
 }
