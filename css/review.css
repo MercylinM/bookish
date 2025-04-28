@@ -22,9 +22,10 @@
   display: flex;
   margin-left: 10%;
   width: 240vh;
+  gap: 2%;
 }
 .student-exprience{
-  margin-left: 3.5%;
+ 
   margin-top: 2%;
 }
 .student-img{
@@ -52,16 +53,11 @@
   width: 40vh;
   border-radius: 29px;
     margin-top: 14%;
-    margin-left: 7%;
 }
 .fact{
   margin-top: 6%;
   margin-left: 7%;
 }
-.fact{
-  margin-top: 6%;
-  margin-left: 7%;
-} */
 .introduction p{
 margin-left: 5%;
 }
@@ -83,6 +79,7 @@ border-radius: 29px;
 }
 .adult{
   display: flex;
+  gap:1%;
   
 }
 #woman{
@@ -342,6 +339,37 @@ color :white;}
 }
 
 @media (max-width: 992px) {
+  .child{
+    margin-left: -5%;
+    width: 40vh;
+  }
+  .example{
+    flex-direction: column;
+  }
+  .adult{
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .description{
+    flex-direction: column;
+  }
+  #highschool{
+    margin-left: -12%;
+  }
+  .highschool-student{
+   flex-direction: column;
+  }
+  .student-exprience{
+    margin-left: -2%;
+    font-size: 11px;
+  }
+  .student-img{
+    margin-left: -2%;
+  }
+  .general{
+    flex-direction: column ;
+    margin-top: 15%;
+  }
   .hero-content h1 {
       font-size: 2.8rem;
   }
