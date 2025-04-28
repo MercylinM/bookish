@@ -386,6 +386,13 @@ color :white;}
     height: 50vh;
   }
 }
+
+.review-category img{
+ width: 50%;
+  
+}
+
+
 /* .protection_survival{
 
   display: flex;
