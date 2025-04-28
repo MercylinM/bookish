@@ -36,11 +36,11 @@
 }
 
 .content-container {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 60px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
 }
 
@@ -113,7 +113,7 @@
 .author-image{
   position: fixed;
   right: 3em;
-  top: 8em;
+  top: 6em;
   width: 80px;
   height: 80px;
 }
@@ -201,6 +201,16 @@
   .content-card {
       max-width: 500px;
       margin: 0 auto;
+  }
+
+  .author-image{
+    top: 6em;
+  }
+}
+
+@media (max-width: 576px) {
+  .author-image{
+    top: 6em;
   }
 }
 

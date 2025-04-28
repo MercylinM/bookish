@@ -37,7 +37,7 @@ fetch('commons/header.html')
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        
+        e.stopPropagation();
         const targetId = this.getAttribute('href');
         if (targetId === '#') return;
         
@@ -69,74 +69,40 @@ fetch('commons/footer.html')
     document.getElementById('footer-placeholder').innerHTML = data;
   });
 
+// Reviews slides 
+let slideIndex = 1;
+showSlides(slideIndex);
 
-  let slideIndex = 1;
-  showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
 
-  function plusSlides(n) {
-     showSlides(slideIndex += n);
-  }
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
 
-  function currentSlide(n) {
-     showSlides(slideIndex = n);
-  }
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("review-slide");
+    let dots = document.getElementsByClassName("slider-dot");
+    
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    
+    for (i = 0; i < slides.length; i++) {
+      slides[i].classList.remove("active");
+    }
+    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].classList.remove("active");
+    }
+    
+    slides[slideIndex-1].classList.add("active");
+    dots[slideIndex-1].classList.add("active");
+}
 
-  function showSlides(n) {
-     let i;
-     let slides = document.getElementsByClassName("review-slide");
-     let dots = document.getElementsByClassName("slider-dot");
-     
-     if (n > slides.length) {slideIndex = 1}
-     if (n < 1) {slideIndex = slides.length}
-     
-     for (i = 0; i < slides.length; i++) {
-        slides[i].classList.remove("active");
-     }
-     
-     for (i = 0; i < dots.length; i++) {
-        dots[i].classList.remove("active");
-     }
-     
-     slides[slideIndex-1].classList.add("active");
-     dots[slideIndex-1].classList.add("active");
-  }
-
-  setInterval(() => {
-     plusSlides(1);
-  }, 6000);
-
-  document.addEventListener('DOMContentLoaded', function() {
-      const cards = document.querySelectorAll('.location-card');
-      
-      cards.forEach(card => {
-         card.addEventListener('mouseenter', function() {
-            this.querySelector('.location-header').style.background = 'linear-gradient(to right, var(--primary-color), var(--secondary-color))';
-         });
-         
-         card.addEventListener('mouseleave', function() {
-            this.querySelector('.location-header').style.background = 'linear-gradient(to right, var(--secondary-color), var(--primary-color))';
-         });
-      });
-   });
-
-   const dateInput = document.getElementById('date');
-   const today = new Date().toISOString().split('T')[0];
-   dateInput.min = today;
-   
-   const form = document.getElementById('reservationForm');
-   const confirmationMessage = document.getElementById('confirmationMessage');
-   const closeButton = document.getElementById('closeConfirmation');
-   
-   form.addEventListener('submit', function(e) {
-       e.preventDefault();
-       confirmationMessage.classList.add('active');
-   });
-   
-   closeButton.addEventListener('click', function() {
-       confirmationMessage.classList.remove('active');
-       form.reset();
-   });
-
-
+setInterval(() => {
+    plusSlides(1);
+}, 6000);
 
 
