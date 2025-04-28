@@ -3,29 +3,32 @@
 }
 .description{
   display: flex;
-  gap: 1%;
+  gap: 2%;
   margin-left: 13%;
 
 }
 .exprience{
-  margin-left: -1%;
+  margin-left: -2%;
+}
+.exprience h1{
+  text-align: center;
 }
 #highschool{
- 
-  width: 30vh;
-  border: solid;
+   margin-top: 25%;
+  width: 35vh;
   border-radius: 15px;
 }
 .highschool-student{
   display: flex;
   margin-left: 10%;
+  width: 240vh;
 }
 .student-exprience{
-  margin-left: 2.5%;
+  margin-left: 3.5%;
   margin-top: 2%;
 }
 .student-img{
-  width: 40%;
+  width: 40vh;
   margin-top: 2%;
   height: 60%;
 
@@ -43,12 +46,13 @@
 .general{
   display: flex;
   margin-bottom: 2%;
+  gap: 5%;
 }
 #boy{
   width: 40vh;
   border-radius: 29px;
     margin-top: 14%;
-    margin-left: 13%;
+    margin-left: 7%;
 }
 .fact{
   margin-top: 6%;
@@ -83,7 +87,6 @@ border-radius: 29px;
 }
 #woman{
   width: 50vh;
-  margin-left: 15%;
   margin-top: 4%;
   margin-bottom: 4%;
   border-radius: 29px;
