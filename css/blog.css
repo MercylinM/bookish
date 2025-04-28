@@ -1,5 +1,5 @@
-/* menu page */
-.menus {
+/* single-blogs page */
+.single-blog {
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -9,14 +9,14 @@
     overflow: hidden;
 }
 
-.menu-container {
+.single-blogs-container {
     display: flex;
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
-.menu {
+.single-blogs {
     padding: 21% 0;
     width: 50%;
     height: 100%;
@@ -25,15 +25,15 @@
     background-position: center;
 }
 
-.menu:first-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/born.jpg);
+.single-blogs:first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/trevornoah-photo-9.jpg);
 }
 
-.menu:last-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/Dear-Ijeawele.jpeg)
+.single-blogs:last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/amanda.jpg)
 }
 
-.menu h2 {
+.single-blogs h2 {
     color: var(--text-light);
     font-size: 2em;
     font-weight: 400;
@@ -41,7 +41,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-.menu h1 {
+.single-blogs h1 {
     color: var(--primary-color);
     font-size: 4em;
     letter-spacing: 2px;
@@ -49,24 +49,24 @@
     margin: 0;
 }
 
-.menu p {
+.single-blogs p {
     color: var(--text-light);
     font-weight: 500;
 }
 
-.menu a {
+.single-blogs a {
     text-decoration: none;
 }
 
 @media (max-width: 992px) {
    
-    .menu-container{
+    .single-blogs-container{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    .menu{
+    .single-blogs{
         width: 100%;
         height: 50%;
     }
