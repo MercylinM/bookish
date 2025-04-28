@@ -95,7 +95,7 @@ img {
 
 .header-container {
    width: 100%;
-   max-width: var(--container-width);
+   max-width: 90%;
    margin: 0 auto;
    padding: 0 2rem;
    display: flex;
@@ -305,17 +305,17 @@ img {
 }
 
 .image:nth-child(3) {
-   background-image: url(/images/Chips.jpg);
+   background-image: url(/images/TD.jpg);
    animation-delay: 8s;
 }
 
 .image:nth-child(4) {
-   background-image: url(/images/cocktail.jpg);
+   background-image: url(/images/Chimamanda.jpg);
    animation-delay: 12s;
 }
 
 .image:nth-child(5) {
-   background-image: url(/images/desert.jpg);
+   background-image: url(/images/TD.jpg);
    animation-delay: 16s;
 }
 
@@ -411,6 +411,7 @@ img {
    font-size: 12px;
    letter-spacing: 2px;
    text-transform: uppercase;
+   color: var(--text-gray);
 }
 
 .scroll-down .arrow {
