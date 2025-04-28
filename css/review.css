@@ -419,4 +419,11 @@ color :white;}
     padding: 8px 15px;
     font-size: 0.9rem;
   }
+
+  .protection_survival, .real_life_examples{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+  }
 }
