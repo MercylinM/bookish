@@ -395,6 +395,7 @@ color :white;}
 .protection_survival h1{
   margin-left: 7cm;
 }
+
 #psimg{
   height: 9cm;
   width: 12cm;
@@ -438,6 +439,17 @@ color :white;}
   .featured-content {
       width: 100%;
   }
+
+   .display .left{
+    width: 100%;
+   }
+   .display .right{
+    width: 100%;
+   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 768px) {
@@ -451,6 +463,16 @@ color :white;}
   
   .review-hero {
       height: 35vh;
+  }
+  .display .left{
+    width: 100%;
+   }
+   .display .right{
+    width: 100%;
+   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   
   .review-items {
