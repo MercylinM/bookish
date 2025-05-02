@@ -1,5 +1,5 @@
 .outsider{
-  color: white;
+  color:black;
 }
 .description{
   display: flex;
@@ -9,6 +9,16 @@
 }
 .exprience{
   margin-left: -2%;
+}
+
+.aparthied{
+  color: black;
+}
+.humor{
+  color: black;
+}
+.apartheid{
+  color: black;
 }
 .exprience h1{
   text-align: center;
@@ -62,7 +72,7 @@ highschool{
 margin-left: 5%;
 }
 .reading{
-  color: white;
+  color:black;
 }
 .example{
   display: flex;
@@ -114,7 +124,7 @@ border-radius: 29px;
   height: 100vh;
 }
 .text h1{
-  color: white;
+  color:black;
   text-align: center;
 }
 #lead-para{
@@ -136,7 +146,7 @@ border-radius: 29px;
   margin-left: 120px;
 }
 .text p{
-color: white;
+color: black;
 }
 
 .text1 h1{
@@ -144,7 +154,7 @@ color: white;
   font-size: 30px;
 }
 .text1 p{
-  color: white;
+  color: black;
   font-size: 18px;
 }
 #girl-image{
@@ -180,10 +190,12 @@ color: white;
 }
 
 .review-container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding:  80px 20px;
-  background-color: black;
+
+  color: black;
+  /* background-color: black; */
   overflow: hidden;
 }
 
@@ -271,7 +283,7 @@ color: white;
 
 #marriage{
   margin-left: 40%;
-  color: white;
+  color: black;
   font-size: 30px;
 
 }
@@ -315,7 +327,7 @@ color :white;}
 .real_life_examples{
   display: flex;
   gap: 1cm;
-  color: aliceblue;
+  color: black;
 }
 .real_life_examples h1{
   margin-left: 12cm;
