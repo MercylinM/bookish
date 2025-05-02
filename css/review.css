@@ -68,8 +68,35 @@ highschool{
   margin-top: 6%;
   margin-left: 7%;
 }
-.introduction p{
-margin-left: 5%;
+.introduction{
+  display:flex;
+  margin-top: 4%;
+border-bottom: solid red;
+}
+#chimamanda-image{
+  width: 80%;
+  height: 60vh;
+  border-radius: 2%;
+  margin-left: 15%;
+  margin-bottom: 13%;
+}
+.chimamanda-idea{
+  width: 40%;
+  color: black;
+  padding-bottom: -11%;
+  line-height: 2.3em;
+  background-color: rgb(224, 216, 216);
+  height: 60vh;
+  margin-left: 4%;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 5%;
+  box-shadow: 2px 0 10px;
+}
+#readd{
+margin-left: 4%;
+color: black;
+
 }
 .reading{
   color:black;
@@ -79,13 +106,21 @@ margin-left: 5%;
   gap: 7%;
 }
 #child{
-  margin-left: 9%;
+  margin-left: 35%;
   margin-top: 10%;
 border-radius: 29px;
+
   
 }
 .sample{
-  margin-top: 10%;
+  width: 40%;
+  padding-left: 2%;
+  margin-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  margin-left: 7%;
+  box-shadow: 3px 4px 5px;
+  background-color: rgb(224, 216, 216);
 }
 .adult{
   display: flex;
@@ -94,14 +129,20 @@ border-radius: 29px;
 }
 #woman{
   width: 50vh;
-  margin-top: 4%;
+  margin-top: 14%;
   margin-bottom: 4%;
   border-radius: 29px;
+  margin-left: 45%;
  
 }
 .recommend{
-  margin-left: 3%;
-  margin-top: 10%;
+  margin-left: 13%;
+  padding-right: 1%;
+  padding-left: 2%;
+  padding-top: 3%;
+  background-color: rgb(224, 216, 216);
+  margin-top: 5%;
+  box-shadow: 3px 4px 5px;
 }
 
 #header-placeholder {
@@ -112,7 +153,7 @@ border-radius: 29px;
 .review-hero {
   
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/pile.jpg);
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/Dear-Ijeawele.jpeg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,12 +231,10 @@ color: black;
 }
 
 .review-container {
-  /* max-width: 1200px; */
   margin: 0 auto;
   padding:  80px 20px;
 
   color: black;
-  /* background-color: black; */
   overflow: hidden;
 }
 
@@ -224,8 +263,7 @@ color: black;
 }
 
 .review-section {
-  color: white;
-  margin-bottom: 60px;
+  color: black;
   scroll-margin-top: 120px;
 }
 
@@ -309,11 +347,38 @@ color :white;}
   }
 }
 
-.review-category img{
- width: 50%;
-  
-}
+.equality-image img{
+ width: 40vw;
+ height: 50vh;
+ margin-left: 2%;
+ border-radius: 29px;
+ margin-right: -2%;
+ 
 
+}
+.review-category{
+  display: flex;
+  gap: 3%;
+  margin-top: 2%;
+
+ 
+
+
+}
+.justice{
+
+  width: 50%;
+  height: 50vh;
+  margin-left: 3%;
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top: 2%;
+  background-color: rgb(224, 216, 216);
+  box-shadow: 2px 6px 16px rgb(17, 16, 16);
+}
+.social justice p{
+color: black;
+}
 .protection_survival h1{
   margin-left: 7cm;
 }
