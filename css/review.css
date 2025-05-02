@@ -13,9 +13,9 @@
 .exprience h1{
   text-align: center;
 }
-#highschool{
+highschool{
    margin-top: 25%;
-  width: 35vh;
+  width: 25vh;
   border-radius: 15px;
 }
 .highschool-student{
@@ -301,14 +301,6 @@ color :white;}
  width: 50%;
   
 }
-
-
-/* .protection_survival{
-
-  display: flex;
-  gap: 1cm;
-  color: aliceblue;
-} */
 
 .protection_survival h1{
   margin-left: 7cm;
