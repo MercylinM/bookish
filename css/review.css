@@ -205,7 +205,11 @@ border-radius: 29px;
 .review-hero {
   
   height: 40vh;
+<<<<<<< Updated upstream
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/chima-fruit.webp);
+=======
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url();
+>>>>>>> Stashed changes
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
