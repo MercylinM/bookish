@@ -1,5 +1,5 @@
 .outsider{
-  color: white;
+  color:black;
 }
 .description{
   display: flex;
@@ -10,21 +10,32 @@
 .exprience{
   margin-left: -2%;
 }
+
+.aparthied{
+  color: black;
+}
+.humor{
+  color: black;
+}
+.apartheid{
+  color: black;
+}
 .exprience h1{
   text-align: center;
 }
-#highschool{
+highschool{
    margin-top: 25%;
-  width: 35vh;
+  width: 25vh;
   border-radius: 15px;
 }
 .highschool-student{
   display: flex;
   margin-left: 10%;
   width: 240vh;
+  gap: 2%;
 }
 .student-exprience{
-  margin-left: 3.5%;
+ 
   margin-top: 2%;
 }
 .student-img{
@@ -52,49 +63,86 @@
   width: 40vh;
   border-radius: 29px;
     margin-top: 14%;
-    margin-left: 7%;
 }
 .fact{
   margin-top: 6%;
   margin-left: 7%;
 }
-.fact{
-  margin-top: 6%;
-  margin-left: 7%;
-} */
-.introduction p{
-margin-left: 5%;
+.introduction{
+  display:flex;
+  margin-top: 4%;
+border-bottom: solid red;
+}
+#chimamanda-image{
+  width: 80%;
+  height: 60vh;
+  border-radius: 2%;
+  margin-left: 15%;
+  margin-bottom: 13%;
+}
+.chimamanda-idea{
+  width: 40%;
+  color: black;
+  padding-bottom: -11%;
+  line-height: 2.3em;
+  background-color: rgb(224, 216, 216);
+  height: 60vh;
+  margin-left: 4%;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 5%;
+  box-shadow: 2px 0 10px;
+}
+#readd{
+margin-left: 4%;
+color: black;
+
 }
 .reading{
-  color: white;
+  color:black;
 }
 .example{
   display: flex;
   gap: 7%;
 }
 #child{
-  margin-left: 9%;
+  margin-left: 35%;
   margin-top: 10%;
 border-radius: 29px;
+
   
 }
 .sample{
-  margin-top: 10%;
+  width: 40%;
+  padding-left: 2%;
+  margin-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  margin-left: 7%;
+  box-shadow: 3px 4px 5px;
+  background-color: rgb(224, 216, 216);
 }
 .adult{
   display: flex;
+  gap:1%;
   
 }
 #woman{
   width: 50vh;
-  margin-top: 4%;
+  margin-top: 14%;
   margin-bottom: 4%;
   border-radius: 29px;
+  margin-left: 45%;
  
 }
 .recommend{
-  margin-left: 3%;
-  margin-top: 10%;
+  margin-left: 13%;
+  padding-right: 1%;
+  padding-left: 2%;
+  padding-top: 3%;
+  background-color: rgb(224, 216, 216);
+  margin-top: 5%;
+  box-shadow: 3px 4px 5px;
 }
 
 #header-placeholder {
@@ -105,7 +153,7 @@ border-radius: 29px;
 .review-hero {
   
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/pile.jpg);
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/Dear-Ijeawele.jpeg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +165,7 @@ border-radius: 29px;
   height: 100vh;
 }
 .text h1{
-  color: white;
+  color:black;
   text-align: center;
 }
 #lead-para{
@@ -139,7 +187,7 @@ border-radius: 29px;
   margin-left: 120px;
 }
 .text p{
-color: white;
+color: black;
 }
 
 .text1 h1{
@@ -147,7 +195,7 @@ color: white;
   font-size: 30px;
 }
 .text1 p{
-  color: white;
+  color: black;
   font-size: 18px;
 }
 #girl-image{
@@ -183,10 +231,10 @@ color: white;
 }
 
 .review-container {
-  max-width: 1200px;
   margin: 0 auto;
   padding:  80px 20px;
-  background-color: black;
+
+  color: black;
   overflow: hidden;
 }
 
@@ -215,8 +263,7 @@ color: white;
 }
 
 .review-section {
-  color: white;
-  margin-bottom: 60px;
+  color: black;
   scroll-margin-top: 120px;
 }
 
@@ -274,7 +321,7 @@ color: white;
 
 #marriage{
   margin-left: 40%;
-  color: white;
+  color: black;
   font-size: 30px;
 
 }
@@ -300,19 +347,38 @@ color :white;}
   }
 }
 
-.review-category img{
- width: 50%;
-  
+.equality-image img{
+ width: 40vw;
+ height: 50vh;
+ margin-left: 2%;
+ border-radius: 29px;
+ margin-right: -2%;
+ 
+
 }
-
-
-/* .protection_survival{
-
+.review-category{
   display: flex;
-  gap: 1cm;
-  color: aliceblue;
-} */
+  gap: 3%;
+  margin-top: 2%;
 
+ 
+
+
+}
+.justice{
+
+  width: 50%;
+  height: 50vh;
+  margin-left: 3%;
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top: 2%;
+  background-color: rgb(224, 216, 216);
+  box-shadow: 2px 6px 16px rgb(17, 16, 16);
+}
+.social justice p{
+color: black;
+}
 .protection_survival h1{
   margin-left: 7cm;
 }
@@ -326,7 +392,7 @@ color :white;}
 .real_life_examples{
   display: flex;
   gap: 1cm;
-  color: aliceblue;
+  color: black;
 }
 .real_life_examples h1{
   margin-left: 12cm;
@@ -342,6 +408,37 @@ color :white;}
 }
 
 @media (max-width: 992px) {
+  .child{
+    margin-left: -5%;
+    width: 40vh;
+  }
+  .example{
+    flex-direction: column;
+  }
+  .adult{
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .description{
+    flex-direction: column;
+  }
+  #highschool{
+    margin-left: -12%;
+  }
+  .highschool-student{
+   flex-direction: column;
+  }
+  .student-exprience{
+    margin-left: -2%;
+    font-size: 11px;
+  }
+  .student-img{
+    margin-left: -2%;
+  }
+  .general{
+    flex-direction: column ;
+    margin-top: 15%;
+  }
   .hero-content h1 {
       font-size: 2.8rem;
   }
@@ -349,7 +446,16 @@ color :white;}
   .featured-item {
       flex-direction: column;
   }
-  
+  .display .left{
+    width: 100%;
+   }
+   .display .right{
+    width: 100%;
+   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .featured-image {
       width: 100%;
       height: 200px;
@@ -396,16 +502,7 @@ color :white;}
   .review-hero {
       height: 35vh;
   }
-  .display .left{
-    width: 100%;
-   }
-   .display .right{
-    width: 100%;
-   }
-  .display{
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+
   
   .review-items {
     grid-template-columns: 1fr;
@@ -419,11 +516,14 @@ color :white;}
     padding: 8px 15px;
     font-size: 0.9rem;
   }
-
-  .protection_survival, .real_life_examples{
-    display: flex;
+  .display{
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
+  }
+  .display .right{
+    width: 100%;
+  }
+  .display .left{
+    width: 100%;
   }
 }
