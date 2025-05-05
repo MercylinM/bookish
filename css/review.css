@@ -361,26 +361,24 @@ color: black;
   z-index: 1;
 }
 
-.display{
+.marriage-achievement{
   display: flex;
   gap: 1cm;
-  color: white;
+  color: rgb(12, 11, 11);
   width: 100%;
 }
 
-.display .left{
+.marriage-achievement .explanation{
+  box-shadow: 2px 0 10px ;
   width: 50%;
+  height: 60vh;
 }
 
-.display{
-  display: flex;
-  gap: 1cm;
-  color: white;
-  width: 100%;
-}
 
-.display .left{
-  width: 50%;
+
+.marriage-achievement .explanation p{
+margin-left: 3%;
+padding-top: 2%;
 }
 
 
@@ -391,24 +389,18 @@ color: black;
 
 }
 .marriage ul{
-color :white;}
+color :rgb(14, 13, 13);}
 
 .achievement{
-  color:white;
+  color:#111010;
 }
 
-.achievement li{
-  list-style-type: none;
-  margin: 2em 0;
-}
 
-.achievement li{
-  list-style-type: none;
-  margin: 2em 0;
-}
-.right{
+
+.wedding-image{
   img{
-    height: 50vh;
+    height: 60vh;
+   border-radius: 5%;
   }
 }
 

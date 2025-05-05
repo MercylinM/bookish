@@ -411,7 +411,10 @@ img {
    font-size: 14px;
    transition: var(--transition);
 }
-
+.hero-button{
+   padding: 20px 30px;
+   background-color: #d4af37;
+}
 .image .image-content .hero-button:hover {
    background-color: white;
    color: var(--dark-bg);
