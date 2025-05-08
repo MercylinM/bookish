@@ -266,13 +266,16 @@ img {
    opacity: 1;
    visibility: visible;
 }
-
-/* Hero Slideshow */
 .image-fade {
    position: relative;
    height: 100vh;
    width: 100vw;
    overflow: hidden;
+   border-bottom: solid;
+   
+}
+.trevor-book-describe{
+
 }
 
 .image {
@@ -297,13 +300,14 @@ img {
 .home-page{
    display: flex;
    gap: 3%;
+  
 }
-#trevor-page{
+/* #trevor-page{
    padding :15%;
    width: 40vw;
    height: 80vh;
 
-}
+} */
 .describe-book{
    display: flex;
    gap: 5%;
@@ -314,17 +318,17 @@ img {
 }
 .chimamanda{
    display: flex;
-   
 }
+/* }
 .chima-describe{
    width: 50%;
-}
-#chima-page{
+} */
+/* #chima-page{
    width: 40vw;
    height:80vh;
 
-}
-.image:nth-child(1) {
+} */
+/* .image:nth-child(1) {
    background-image: url(/images/TD.jpg);
    animation-delay: 0s;
 }
@@ -375,6 +379,7 @@ img {
    width: 120px;
    margin-bottom: 20px;
    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+
 }
 
 .image h1 {
@@ -406,7 +411,10 @@ img {
    font-size: 14px;
    transition: var(--transition);
 }
-
+.hero-button{
+   padding: 20px 30px;
+   background-color: #d4af37;
+}
 .image .image-content .hero-button:hover {
    background-color: white;
    color: var(--dark-bg);
@@ -478,8 +486,9 @@ footer {
 .quotes-section {
    background-color: var(--review-bg);
    padding: 100px 0;
-   position: absolute;
-   width: 50%;
+   width: 100%;
+   position: relative;
+   left: 170px;
 }
 
 .quotes-container {
@@ -541,6 +550,8 @@ footer {
 
 .review-slide.active {
    display: block;
+height: 50vh;
+margin-top: 5%;
 }
 
 .quote-icon {
@@ -664,10 +675,10 @@ footer {
    to { opacity: 1; transform: translateY(0); }
 }
 
-.review-category{
+.review-category p{
    margin-top: 15%;
    color: black;
-position: relative;
+position:relative;
 }
 #header-placeholder {
    position: relative;
@@ -871,6 +882,8 @@ position: relative;
    .team-container {
        grid-template-columns: 1fr;
        max-width: 600px;
+       position: relative;
+       top:100% ;
    }
  }
  
@@ -1066,3 +1079,101 @@ position: relative;
    border-radius: 20px;
 }
 
+.review-category p{
+ color: white;
+
+}
+
+.card {
+   background: whitesmoke;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 10, 10, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   animation: slideUp 0.5s ease-out;
+   animation-fill-mode: both;
+   background-repeat: repeat-x;
+   width: 50%;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes slideUp {
+   from { opacity: 0; transform: translateY(20px); }
+   to { opacity: 1; transform: translateY(0); }
+}
+
+.card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+   width: 500%;
+   height: 700px;
+   object-fit: cover;
+   transition: transform 0.5s ease;
+}
+
+.card:hover .card-img {
+   transform: scale(1.05);
+}
+
+.card-content {
+   padding: 20px;
+}
+
+.card-title {
+   font-size: 1.3rem;
+   margin-bottom: 10px;
+   color: #2c3e50;
+}
+
+.card-author {
+   color: #7f8c8d;
+   font-size: 0.9rem;
+   margin-bottom: 15px;
+   font-style: italic;
+}
+
+.card-review {
+   margin-bottom: 15px;
+   font-size: 0.95rem;
+}
+
+.card-rating {
+   color: #f39c12;
+   font-weight: bold;
+   margin-bottom: 15px;
+}
+.read-more {
+display: inline-block;
+ background-color:#d4af37 ;
+ color: white;
+ padding: 8px 15px;
+ border-radius: 4px;
+ text-decoration: none;
+   font-size: 0.9rem;
+   transition: all 0.3s ease;
+}
+
+.read-more:hover {
+   background-color: #2980b9;
+   transform: translateX(5px);
+}
+.book-cards {
+   display: flex;
+   /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+   /* gap: 500px; */
+   width: 80%;
+   margin: 5% auto;
+   gap: 10%;
+   position: relative;
+   
+}
+h1 {
+   font-size: 2.5rem;
+   margin-bottom: 10px;
+}

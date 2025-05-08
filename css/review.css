@@ -1,5 +1,13 @@
-.outsider{
+.outsider {
   color:black;
+  border: 2px solid rgba(233, 181, 70, 0.822);
+  width: 60vw;
+  margin-left: 20rem;
+  border-radius: 20px ;
+  box-shadow: 3px 4px;
+  padding: 3%;
+  margin-right: 5rem;
+  
 }
 .description{
   display: flex;
@@ -7,10 +15,123 @@
   margin-left: 13%;
 
 }
+.experience{
+  margin-left: 10rem;
+}
+ .trevor-img img{
+  width: 30vw;
+  height: 30vh;
+  justify-content: center;
+  border-radius: 15px;
+ }
+.trevor-img{
+  margin-left: 14.5rem;
+  
+} */
 .exprience{
-  margin-left: -2%;
+  text-align: center;
 }
 
+ .personal{
+  text-align: center;
+ }
+.fact{
+  text-align: center;
+} 
+.patricia-img img{
+  border-radius: 15px;
+  width: 30vw;
+}
+.thinking-text{
+  border: 2px solid rgba(233, 181, 70, 0.822);
+  border-radius: 20px ;
+  padding: 3%;
+  margin-right:5rem ;
+  margin-left: 5rem;
+  box-shadow: 3px 4px black;
+}
+.content{
+  color: black;
+}
+.protection-content{
+  margin-left: 21.5rem;
+  border: 2px solid rgba(233, 181, 70, 0.822);
+  border-radius: 20px ;
+  padding: 3%;
+  margin-right:5rem ;
+  margin-left: 6rem;
+  box-shadow: 3px 4px black;
+  
+}
+
+.survival{
+  margin-left: 5rem;
+}
+.mother-img img{
+  margin-left: 9rem;
+  border-radius: 15px;
+  width: 55vw;
+}
+.img-apartheid{
+  margin-left: 14rem;
+  
+}
+.img-apartheid img{
+  width: 30vw;
+  border-radius: 20px;
+}
+  .apartheid{
+    margin-left: 21.5rem;
+    border: 2px solid rgba(233, 181, 70, 0.822);
+    border-radius: 20px ;
+    padding: 3%;
+    margin-right:5rem ;
+    margin-left: 20rem;
+    box-shadow: 3px 4px black;
+    width:60vw ;
+  }
+.img-trevor img{
+  width: 50vw;
+  margin-left: 16rem;
+  border-radius: 20px;
+}
+.issue-3{
+  margin-right: 5rem;
+}
+.issue-2{
+  margin-right: 5rem; 
+}
+.issue-4{
+  margin-right: 3.8rem; 
+}
+.issue-1{
+  margin-right: 3.8rem; 
+}
+.humor{
+  margin-left: 21.5rem;
+  border: 2px solid rgba(233, 181, 70, 0.822);
+  border-radius: 20px ;
+  padding: 3%;
+  margin-right:5rem ;
+  margin-left: 6rem;
+  box-shadow: 3px 4px black;
+  
+}
+.summary{
+  color: black;
+  text-align: center;
+  margin-left: 21.5rem;
+  border: 2px solid rgba(233, 181, 70, 0.822);
+  border-radius: 20px ;
+  padding: 3%;
+  margin-right:5rem ;
+  margin-left: 6rem;
+  box-shadow: 3px 4px black;
+
+}
+.protection{
+  margin-left: 10rem;
+}
 .aparthied{
   color: black;
 }
@@ -23,81 +144,12 @@
 .exprience h1{
   text-align: center;
 }
-highschool{
-   margin-top: 25%;
-  width: 25vh;
-  border-radius: 15px;
-}
-.highschool-student{
-  display: flex;
-  margin-left: 10%;
-  width: 240vh;
-  gap: 2%;
-}
+
 .student-exprience{
- 
-  margin-top: 2%;
+ text-align: center;
 }
-.student-img{
-  width: 40vh;
-  margin-top: 2%;
-  height: 60%;
 
-  img{
-    border-radius: 9%;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-  }
-  
-}
-.outsider h1{
-  margin-top: 3%;
-}
-.general{
-  display: flex;
-  margin-bottom: 2%;
-  gap: 5%;
-}
-#boy{
-  width: 40vh;
-  border-radius: 29px;
-    margin-top: 14%;
-}
-.fact{
-  margin-top: 6%;
-  margin-left: 7%;
-}
-.introduction{
-  display:flex;
-  margin-top: 4%;
-border-bottom: solid red;
-}
-#chimamanda-image{
-  width: 80%;
-  height: 60vh;
-  border-radius: 2%;
-  margin-left: 15%;
-  margin-bottom: 13%;
-}
-.chimamanda-idea{
-  width: 40%;
-  color: black;
-  padding-bottom: -11%;
-  line-height: 2.3em;
-  background-color: rgb(224, 216, 216);
-  height: 60vh;
-  margin-left: 4%;
-  padding-left: 3%;
-  padding-top: 3%;
-  padding-right: 5%;
-  box-shadow: 2px 0 10px;
-}
-#readd{
-margin-left: 4%;
-color: black;
 
-}
 .reading{
   color:black;
 }
@@ -151,9 +203,13 @@ border-radius: 29px;
 }
 
 .review-hero {
-  
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/chima-fruit.webp);
   height: 40vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/Dear-Ijeawele.jpeg);
+/* <<<<<<< Updated upstream
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/chima-fruit.webp);
+=======
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url();
+>>>>>>> Stashed changes */
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,6 +245,18 @@ border-radius: 29px;
 .text p{
 color: black;
 }
+.introduction{
+  display: flex;
+}
+#chimamanda-image{
+  margin-left: 10%;
+  width: 50%;
+  height: 100%;
+  border-radius: 19px;
+}
+.chimamanda-idea{
+  margin-left: 2%;
+}
 
 .text1 h1{
   color: white;
@@ -205,6 +273,7 @@ color: black;
   width: 490px; 
   height: 250px;
 }
+
 .hero-content {
   max-width: 800px;
   padding: 0 20px;
@@ -296,26 +365,24 @@ color: black;
   z-index: 1;
 }
 
-.display{
+.marriage-achievement{
   display: flex;
   gap: 1cm;
-  color: white;
+  color: rgb(12, 11, 11);
   width: 100%;
 }
 
-.display .left{
+.marriage-achievement .explanation{
+  box-shadow: 2px 0 10px ;
   width: 50%;
+  height: 60vh;
 }
 
-.display{
-  display: flex;
-  gap: 1cm;
-  color: white;
-  width: 100%;
-}
 
-.display .left{
-  width: 50%;
+
+.marriage-achievement .explanation p{
+margin-left: 3%;
+padding-top: 2%;
 }
 
 
@@ -326,24 +393,18 @@ color: black;
 
 }
 .marriage ul{
-color :white;}
+color :rgb(14, 13, 13);}
 
 .achievement{
-  color:white;
+  color:#111010;
 }
 
-.achievement li{
-  list-style-type: none;
-  margin: 2em 0;
-}
 
-.achievement li{
-  list-style-type: none;
-  margin: 2em 0;
-}
-.right{
+
+.wedding-image{
   img{
-    height: 50vh;
+    height: 60vh;
+   border-radius: 5%;
   }
 }
 
@@ -526,4 +587,4 @@ color: black;
   .display .left{
     width: 100%;
   }
-}
+} 
