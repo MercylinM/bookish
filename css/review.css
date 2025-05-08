@@ -205,11 +205,6 @@ border-radius: 29px;
 .review-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/chima-fruit.webp);
   height: 40vh;
-/* <<<<<<< Updated upstream
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/chima-fruit.webp);
-=======
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url();
->>>>>>> Stashed changes */
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -340,6 +335,7 @@ color: black;
   text-align: center;
   margin-bottom: 40px;
   position: relative;
+  color: #000;
   
 }
 
@@ -421,25 +417,21 @@ color :rgb(14, 13, 13);}
   display: flex;
   gap: 3%;
   margin-top: 2%;
-
- 
-
-
 }
 .justice{
-
   width: 50%;
-  height: 50vh;
+  height: auto;
   margin-left: 3%;
-  padding-left: 2%;
-  padding-right: 5%;
-  padding-top: 2%;
   background-color: rgb(224, 216, 216);
+  color: black !important;
   box-shadow: 2px 6px 16px rgb(17, 16, 16);
 }
-.social justice p{
-color: black;
+
+.justice p{
+  color: black !important;
+  margin: 2% 3% !important;
 }
+
 .protection_survival h1{
   margin-left: 7cm;
 }
