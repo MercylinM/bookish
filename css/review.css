@@ -1,199 +1,170 @@
 .outsider {
-  color: black;
+  color:black;
   border: 2px solid rgba(233, 181, 70, 0.822);
   width: 60vw;
   margin-left: 20rem;
-  border-radius: 20px;
+  border-radius: 20px ;
   box-shadow: 3px 4px;
   padding: 3%;
   margin-right: 5rem;
-
+  
 }
-
-.description {
+.description{
   display: flex;
   gap: 2%;
   margin-left: 13%;
 
 }
-
-.experience {
+.experience{
   margin-left: 10rem;
 }
-
-.trevor-img img {
+ .trevor-img img{
   width: 30vw;
   height: 30vh;
   justify-content: center;
   border-radius: 15px;
-}
-
-.trevor-img {
+ }
+.trevor-img{
   margin-left: 14.5rem;
-
-}
-
-*/ .exprience {
+  
+} */
+.exprience{
   text-align: center;
 }
 
-.personal {
+ .personal{
   text-align: center;
-}
-
-.fact {
+ }
+.fact{
   text-align: center;
-}
-
-.patricia-img img {
+} 
+.patricia-img img{
   border-radius: 15px;
   width: 30vw;
 }
-
-.thinking-text {
+.thinking-text{
   border: 2px solid rgba(233, 181, 70, 0.822);
-  border-radius: 20px;
+  border-radius: 20px ;
   padding: 3%;
-  margin-right: 5rem;
+  margin-right:5rem ;
   margin-left: 5rem;
   box-shadow: 3px 4px black;
 }
-
-.content {
+.content{
   color: black;
 }
-
-.protection-content {
+.protection-content{
   margin-left: 21.5rem;
   border: 2px solid rgba(233, 181, 70, 0.822);
-  border-radius: 20px;
+  border-radius: 20px ;
   padding: 3%;
-  margin-right: 5rem;
+  margin-right:5rem ;
   margin-left: 6rem;
   box-shadow: 3px 4px black;
-
+  
 }
 
-.survival {
+.survival{
   margin-left: 5rem;
 }
-
-.mother-img img {
+.mother-img img{
   margin-left: 9rem;
   border-radius: 15px;
   width: 55vw;
 }
-
-.img-apartheid {
+.img-apartheid{
   margin-left: 14rem;
-
+  
 }
-
-.img-apartheid img {
+.img-apartheid img{
   width: 30vw;
   border-radius: 20px;
 }
-
-.apartheid {
-  margin-left: 21.5rem;
-  border: 2px solid rgba(233, 181, 70, 0.822);
-  border-radius: 20px;
-  padding: 3%;
-  margin-right: 5rem;
-  margin-left: 20rem;
-  box-shadow: 3px 4px black;
-  width: 60vw;
-}
-
-.img-trevor img {
+  .apartheid{
+    margin-left: 21.5rem;
+    border: 2px solid rgba(233, 181, 70, 0.822);
+    border-radius: 20px ;
+    padding: 3%;
+    margin-right:5rem ;
+    margin-left: 20rem;
+    box-shadow: 3px 4px black;
+    width:60vw ;
+  }
+.img-trevor img{
   width: 50vw;
   margin-left: 16rem;
   border-radius: 20px;
 }
-
-.issue-3 {
+.issue-3{
   margin-right: 5rem;
 }
-
-.issue-2 {
-  margin-right: 5rem;
+.issue-2{
+  margin-right: 5rem; 
 }
-
-.issue-4 {
-  margin-right: 3.8rem;
+.issue-4{
+  margin-right: 3.8rem; 
 }
-
-.issue-1 {
-  margin-right: 3.8rem;
+.issue-1{
+  margin-right: 3.8rem; 
 }
-
-.humor {
+.humor{
   margin-left: 21.5rem;
   border: 2px solid rgba(233, 181, 70, 0.822);
-  border-radius: 20px;
+  border-radius: 20px ;
   padding: 3%;
-  margin-right: 5rem;
+  margin-right:5rem ;
   margin-left: 6rem;
   box-shadow: 3px 4px black;
-
+  
 }
-
-.summary {
+.summary{
   color: black;
   text-align: center;
   margin-left: 21.5rem;
   border: 2px solid rgba(233, 181, 70, 0.822);
-  border-radius: 20px;
+  border-radius: 20px ;
   padding: 3%;
-  margin-right: 5rem;
+  margin-right:5rem ;
   margin-left: 6rem;
   box-shadow: 3px 4px black;
 
 }
-
-.protection {
+.protection{
   margin-left: 10rem;
 }
-
-.aparthied {
+.aparthied{
   color: black;
 }
-
-.humor {
+.humor{
   color: black;
 }
-
-.apartheid {
+.apartheid{
   color: black;
 }
-
-.exprience h1 {
+.exprience h1{
   text-align: center;
 }
 
-.student-exprience {
-  text-align: center;
+.student-exprience{
+ text-align: center;
 }
 
 
-.reading {
-  color: black;
+.reading{
+  color:black;
 }
-
-.example {
+.example{
   display: flex;
   gap: 7%;
 }
-
-#child {
+#child{
   margin-left: 35%;
   margin-top: 10%;
-  border-radius: 29px;
+border-radius: 29px;
 
-
+  
 }
-
-.sample {
+.sample{
   width: 40%;
   padding-left: 2%;
   margin-top: 3%;
@@ -203,23 +174,20 @@
   box-shadow: 3px 4px 5px;
   background-color: rgb(224, 216, 216);
 }
-
-.adult {
+.adult{
   display: flex;
-  gap: 1%;
-
+  gap:1%;
+  
 }
-
-#woman {
+#woman{
   width: 50vh;
   margin-top: 14%;
   margin-bottom: 4%;
   border-radius: 29px;
   margin-left: 45%;
-
+ 
 }
-
-.recommend {
+.recommend{
   margin-left: 13%;
   padding-right: 1%;
   padding-left: 2%;
@@ -235,21 +203,8 @@
 }
 
 .review-hero {
-
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/chima-fruit.webp);
   height: 40vh;
-<<<<<<< Updated upstream
-=======
-  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/chima-fruit.webp); */
-/* <<<<<<< Updated upstream
-/* <<<<<<< Updated upstream
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/images/chima-fruit.webp);
-=======
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(); */
-/* >>>>>>> Stashed changes */
-  /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(); */
-/* >>>>>>> Stashed changes */ */
->>>>>>> Stashed changes
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -260,67 +215,57 @@
   color: var(--text-light);
   height: 100vh;
 }
-
-.text h1 {
-  color: black;
+.text h1{
+  color:black;
   text-align: center;
 }
-
-#lead-para {
+#lead-para{
   margin-left: 510px;
   font-size: 19px;
   margin-top: 40px;
-
+  
 }
-
-#patric-image {
+#patric-image{
   margin-left: 180px;
   margin-top: -240px;
   width: 300px;
   height: 280px;
   border-radius: 20px;
 }
-
-#sub-para {
+#sub-para{
   margin-top: 20px;
   font-size: 19px;
   margin-left: 120px;
 }
-
-.text p {
-  color: black;
+.text p{
+color: black;
 }
-
-.introduction {
+.introduction{
   display: flex;
 }
-
-#chimamanda-image {
+#chimamanda-image{
   margin-left: 10%;
   width: 50%;
   height: 100%;
   border-radius: 19px;
 }
-
-.chimamanda-idea {
+.chimamanda-idea{
   margin-left: 2%;
 }
 
-.text1 h1 {
+.text1 h1{
   color: white;
   font-size: 30px;
 }
-
-.text1 p {
+.text1 p{
   color: black;
   font-size: 18px;
 }
-
-#girl-image {
+#girl-image{
   margin-top: -10px;
-  padding-bottom: 20px;
-  margin-left: 500px;
-  width: 490px;
+  padding-bottom: 20px; 
+  margin-left: 500px; 
+  width: 490px; 
   height: 250px;
 }
 
@@ -332,14 +277,14 @@
 .hero-content img {
   width: 120px;
   margin-bottom: 20px;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
 
 .hero-content h1 {
   font-size: 3.5rem;
   color: var(--primary-color);
   margin-bottom: 10px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-content p {
@@ -351,7 +296,7 @@
 
 .review-container {
   margin: 0 auto;
-  padding: 80px 20px;
+  padding:  80px 20px;
 
   color: black;
   overflow: hidden;
@@ -376,8 +321,7 @@
   transition: var(--transition);
 }
 
-.review-nav a:hover,
-.review-nav a.active {
+.review-nav a:hover, .review-nav a.active {
   background-color: var(--primary-color);
   color: white;
 }
@@ -391,12 +335,8 @@
   text-align: center;
   margin-bottom: 40px;
   position: relative;
-<<<<<<< Updated upstream
   color: #000;
   
-=======
-
->>>>>>> Stashed changes
 }
 
 .section-header h2 {
@@ -421,60 +361,57 @@
   z-index: 1;
 }
 
-.display {
-  .marriage-achievement {
-    display: flex;
-    gap: 1cm;
-    color: rgb(12, 11, 11);
-    width: 100%;
+.marriage-achievement{
+  display: flex;
+  gap: 1cm;
+  color: rgb(12, 11, 11);
+  width: 100%;
+}
+
+.marriage-achievement .explanation{
+  box-shadow: 2px 0 10px ;
+  width: 50%;
+  height: 60vh;
+}
+
+
+
+.marriage-achievement .explanation p{
+margin-left: 3%;
+padding-top: 2%;
+}
+
+
+#marriage{
+  margin-left: 40%;
+  color: black;
+  font-size: 30px;
+
+}
+.marriage ul{
+color :rgb(14, 13, 13);}
+
+.achievement{
+  color:#111010;
+}
+
+
+
+.wedding-image{
+  img{
+    height: 60vh;
+   border-radius: 5%;
   }
+}
 
-  .display .left {
-    .marriage-achievement .explanation {
-      box-shadow: 2px 0 10px;
-      width: 50%;
+.equality-image img{
+ width: 40vw;
+ height: 50vh;
+ margin-left: 2%;
+ border-radius: 29px;
+ margin-right: -2%;
+ 
 
-    }
-
-    .display {
-      display: flex;
-      gap: 1cm;
-      color: black;
-      width: 100%;
-    }
-
-
-
-    .marriage-achievement .explanation p {
-      margin-left: 3%;
-      padding-top: 2%;
-    }
-
-    #marriage {
-      margin-left: 40%;
-      color: black;
-      font-size: 30px;
-
-    }
-
-    .marriage ul {
-      color: white;
-    }
-
-    .marriage ul {
-      color: rgb(14, 13, 13);
-    }
-
-    .achievement {
-      color: white;
-    }
-
-    .achievement li {
-      list-style-type: none;
-      margin: 2em 0;
-    }
-
-<<<<<<< Updated upstream
 }
 .review-category{
   display: flex;
@@ -498,235 +435,148 @@
 .protection_survival h1{
   margin-left: 7cm;
 }
-=======
-    .achievement {
-      color: #111010;
-    }
 
-    .achievement li {
-      list-style-type: none;
-      margin: 2em 0;
-    }
+#psimg{
+  height: 9cm;
+  width: 12cm;
+  border-radius: 10px;
+  margin-top: 2cm;
+}
+.real_life_examples{
+  display: flex;
+  gap: 1cm;
+  color: black;
+}
+.real_life_examples h1{
+  margin-left: 12cm;
+}
+#supportimg{
+  height: 9cm;
+  width: 12cm;
+  border-radius: 10px;
+  margin-top: 2.3cm;
+}
+.conlude{
+  color: aliceblue;
+}
 
-    .right {
-      img {
-        height: 50vh;
-      }
-    }
-
-    .wedding-image {
-      img {
-        height: 60vh;
-        border-radius: 5%;
-      }
-    }
-
-    .equality-image img {
-      width: 50vw;
-      height: 50vh;
-      margin-left: 12%;
-      border-radius: 29px;
-      margin-right: -2%;
->>>>>>> Stashed changes
-
-
-    }
-
-    .combine {
-      display: flex;
-      gap: 3%;
-      margin-top: 2%;
-      color: black;
-
-
-
-
-    }
-
-    .justice-chima {
-
-      color: black;
-      width: 50%;
-      height: 60vh;
-      margin-left: 13%;
-      padding-left: 2%;
-      padding-right: 5%;
-      padding-top: 2%;
-      background-color: rgb(224, 216, 216);
-      box-shadow: 2px 6px 16px rgb(17, 16, 16);
+@media (max-width: 992px) {
+  .child{
+    margin-left: -5%;
+    width: 40vh;
+  }
+  .example{
+    flex-direction: column;
+  }
+  .adult{
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .description{
+    flex-direction: column;
+  }
+  #highschool{
+    margin-left: -12%;
+  }
+  .highschool-student{
+   flex-direction: column;
+  }
+  .student-exprience{
+    margin-left: -2%;
+    font-size: 11px;
+  }
+  .student-img{
+    margin-left: -2%;
+  }
+  .general{
+    flex-direction: column ;
+    margin-top: 15%;
+  }
+  .hero-content h1 {
+      font-size: 2.8rem;
+  }
   
-      
-    }
+  .featured-item {
+      flex-direction: column;
+  }
+  .display .left{
+    width: 100%;
+   }
+   .display .right{
+    width: 100%;
+   }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .featured-image {
+      width: 100%;
+      height: 200px;
+  }
+  
+  .featured-content {
+      width: 100%;
+  }
 
-    .protection_survival h1 {
-      margin-left: 7cm;
-    }
-
-    #psimg {
-      height: 9cm;
-      width: 12cm;
-      border-radius: 10px;
-      margin-top: 2cm;
-    }
-
-    .real_life_examples {
-      display: flex;
-      gap: 1cm;
-      color: black;
-    }
-
-    .real_life_examples h1 {
-      margin-left: 12cm;
-    }
-
-    #supportimg {
-      height: 9cm;
-      width: 12cm;
-      border-radius: 10px;
-      margin-top: 2.3cm;
-    }
-
-    .conlude {
-      color: aliceblue;
-    }
+  #girl-image{
+    margin-top: 10px;
+    margin-left: -1px; 
+   
+  }
+  #lead-para{
+    margin-left: 10px;
+    font-size: 19px;
+  
+    
+  }
+  #patric-image{
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 340px;
+   
+  }
+  #sub-para{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 10px;
   }
 }
-    @media (max-width: 992px) {
-      .child {
-        margin-left: -5%;
-        width: 40vh;
-      }
-
-      .example {
-        flex-direction: column;
-      }
-
-      .adult {
-        flex-direction: column;
-        margin-top: 5%;
-      }
-
-      .description {
-        flex-direction: column;
-      }
-
-      #highschool {
-        margin-left: -12%;
-      }
-
-      .highschool-student {
-        flex-direction: column;
-      }
-
-      .student-exprience {
-        margin-left: -2%;
-        font-size: 11px;
-      }
-
-      .student-img {
-        margin-left: -2%;
-      }
-
-      .general {
-        flex-direction: column;
-        margin-top: 15%;
-      }
-
-      .hero-content h1 {
-        font-size: 2.8rem;
-      }
-
-      .featured-item {
-        flex-direction: column;
-      }
-
-      .display .left {
-        width: 100%;
-      }
-
-      .display .right {
-        width: 100%;
-      }
-
-      .display {
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-
-      .featured-image {
-        width: 100%;
-        height: 200px;
-      }
-
-      .featured-content {
-        width: 100%;
-      }
-
-      #girl-image {
-        margin-top: 10px;
-        margin-left: -1px;
-
-      }
-
-      #lead-para {
-        margin-left: 10px;
-        font-size: 19px;
 
 
-      }
+@media (max-width: 768px) {
+  .hero-content h1 {
+      font-size: 2.2rem;
+  }
+  
+  .hero-content p {
+      font-size: 1rem;
+  }
+  
+  .review-hero {
+      height: 35vh;
+  }
 
-      #patric-image {
-        margin-left: 5px;
-        margin-top: 20px;
-        width: 340px;
-
-      }
-
-      #sub-para {
-        margin-top: 20px;
-        font-size: 19px;
-        margin-left: 10px;
-      }
-    }
-
-
-    @media (max-width: 768px) {
-      .hero-content h1 {
-        font-size: 2.2rem;
-      }
-
-      .hero-content p {
-        font-size: 1rem;
-      }
-
-      .review-hero {
-        height: 35vh;
-      }
-
-
-      .review-items {
-        grid-template-columns: 1fr;
-      }
-
-      .review-nav {
-        gap: 10px;
-      }
-
-      .review-nav a {
-        padding: 8px 15px;
-        font-size: 0.9rem;
-      }
-
-      .display {
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-
-      .display .right {
-        width: 100%;
-      }
-
-      .display .left {
-        width: 100%;
-      }
-    }
+  
+  .review-items {
+    grid-template-columns: 1fr;
+  }
+  
+  .review-nav {
+    gap: 10px;
+  }
+  
+  .review-nav a {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  .display{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .display .right{
+    width: 100%;
+  }
+  .display .left{
+    width: 100%;
+  }
+} 
